@@ -20,7 +20,7 @@
     </head>
     <body>
 
-        <header></header>
+        @include('partials.header')
 
         <main>
             
@@ -28,7 +28,7 @@
 
         </main>
 
-        <footer></footer>
+        <footer><h2>arrivederci</h2></footer>
         
     </body>
 </html>

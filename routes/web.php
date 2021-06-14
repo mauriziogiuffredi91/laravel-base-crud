@@ -12,5 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Home
 Route::get('/', 'PageController@index')->name('home');
+
+//Comics
+Route::resource('comics', 'ComicController');
