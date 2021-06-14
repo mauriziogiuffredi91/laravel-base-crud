@@ -22,9 +22,9 @@
                       <td>{{$item->type}}</td>
                       <td>
                             <a class="btn btn-success" 
-                                href="{{route('comics.show', $item->id)}}"
+                              href="{{route('comics.show', $item->id)}}"
                             >
-                                SHOW
+                              SHOW
                             </a>
                       </td>
                       <td>EDIT</td>

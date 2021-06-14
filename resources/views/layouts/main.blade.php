@@ -28,7 +28,7 @@
 
         </main>
 
-        <footer><h2>arrivederci</h2></footer>
+        @include('partials.footer')
         
     </body>
 </html>
