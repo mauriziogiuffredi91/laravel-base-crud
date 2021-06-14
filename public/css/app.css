@@ -9,9 +9,18 @@ body {
 }
 
 main {
-  height: 80vh;
+  padding: 50px;
+  height: 90vh;
+  background-image: asset("img.ozymandias.jpg");
   background-color: #fffffe;
-  background-image: url("/public/img/watchmen.jpg");
+}
+
+header input {
+  height: 40px;
+}
+
+header button {
+  width: 250px;
 }
 
 footer {
