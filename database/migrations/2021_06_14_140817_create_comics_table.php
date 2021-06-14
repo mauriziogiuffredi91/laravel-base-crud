@@ -18,7 +18,8 @@ class CreateComicsTable extends Migration
             $table->string('title', 70);
             $table->string('slug');
             $table->text('description');
-            $table->float('price', 4,2)->unsigned();            $table->string('series', 30);
+            $table->float('price', 4,2)->unsigned();            
+            $table->string('series', 30);
             $table->date('sale_date');
             $table->string('type', 60);
             $table->timestamps();
